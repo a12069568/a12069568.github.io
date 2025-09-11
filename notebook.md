@@ -5,11 +5,59 @@
   - [What is Flutter?](#what-is-flutter)
   - [Key Terms and Definitions](#Key-Terms-and-Definitions)
 -[Notebook Style Guide](#Markdown-Style-Guide-for-Coding-Notebooks)
+-[Flutter Definitions](#flutter_definitions)
+- [Code Definitions](#code_definitions)
 
+## Flutter Definitions
+| Term | Definition and Description | Base Structure | Real Life Example | App Example |
+|------|----------------------------|----------------|-------------------|-------------|
+| Main function| A function that runs when your app starts. It tells Flutter what app to show.| void main() => runApp(MyApp());| Turning on a TV to display a show.| main() starts and runs your app.|
+| MaterialApp| Sets up your whole app’s look and navigation.| MaterialApp(...)| The foundation and style guide of a house.  | Sets theme, home screen, routes.|
+| Scaffold| Gives basic layout: background, nav bar, floating button, etc.| Scaffold(...)| A blank canvas with a frame.| Adds AppBar, body, floating button.|
+| Column| Displays content top to bottom.| Column(...)| A vertical list of items on a shelf.| Stack text and images vertically.|
+| Row| Displays widgets side-by-side.| Row(...)| A line of books on a shelf.| Place buttons or icons in a line.|
+| Container| A box that can hold other widgets, style, padding, size.| Container(...)| A decorative gift box.| Add margin, padding, color.|
+| Text| Displays text on screen.| Text('Hello')| A label on a product.| Show titles, labels, descriptions.|
+| Image.network| Loads and shows an image from the internet.| Image.network('https://...')| Viewing a photo from a website.| Load an image from a URL|
+| ElevatedButton| A clickable button with elevation.| ElevatedButton(onPressed: ..., child: ...)| A doorbell you press to get action.| Navigate to another screen.|
+| onPressed| The code that runs when a button is tapped.| onPressed: () => doSomething()| Clicking a switch to turn on a light.| Button triggers a function.|
+| StatelessWidget| A widget that never changes.| class HomeScreen extends StatelessWidget| A poster that never changes.| Static home page or about screen.|
+| StatefulWidget| A widget that can change over time.| class MyWidget extends StatefulWidget| A digital clock that updates time.| Interactive form or counter.|
+| Navigator.pushNamed| Navigate to another screen using route names.| Navigator.pushNamed(context, '/about')| Turning to a different chapter in a book.| Tap button → go to About screen.|
+| Padding| Adds space around a widget.| Padding(padding: EdgeInsets.all(8.0), child: ...)| Cushion inside a box.| Add spacing around a Text widget.|
+| Center| Centers content on screen or in a container.| Center(child: ...)| A painting placed in the center of a wall.| Center logo or title.|
+| Wrap| Automatically wraps widgets to next line if needed.| Wrap(children: [...])| Word wrapping in a text editor.| Display tags or chips responsively.|
+| @override| Marks that you're overriding a method from parent class.| @override| Changing the recipe of a traditional dish.| Override build() in widget class.|
+| build() function| Describes what UI to show in a widget.| Widget build(BuildContext context) {...}| Blueprint showing what to construct.| Creates the visual part of the widget.|
+| build| The method used in widgets to return UI layout.| build| An architect's design plan.| Defines widget layout.|
+| BuildContext context| Helps the widget know where it is in the widget tree.| BuildContext context| GPS in a car—it tells location.| Used for navigation or theme access|
+| super.key| Passes the key value to the parent constructor.| super.key| Giving a master key to someone for entry.| Passed in constructors for widgets|
+| const| Declares a value that never changes.| const| A permanent signboard.| Optimizes performance for static widgets.|
 
-
-
-
+## Code Definitions
+| Term        | Definition | Base Structure / Syntax | Real Life Example | App Example |
+|-------------|------------|--------------------------|-------------------|-------------|
+| Variable| A named container used to store a value that may change. | `var x = 5;` | A labeled jar you can refill. | Storing user input like `age` or `name`. |
+| Constant| A fixed value that cannot change once set. | `const PI = 3.14;` | A sign carved in stone. | Storing a fixed API key or math constant. |
+| Data type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` | Different types of boxes for different items. | Choosing `bool` for login state, `String` for name. |
+| String| A sequence of characters used to represent words or text. | `"Hello World"` | A message on a note. | Displaying welcome messages. |
+| Integer| Whole number values. | `int age = 16;` | Counting apples. | Showing how many likes a post has. |
+| Double| Number values with decimals. | `double age = 16.2;` | Measuring height or temperature. | Showing rating like 4.5 stars. |
+| Boolean| A value that can be true or false. | `bool isLoggedIn = false;` | A light switch (on/off). | Tracking if a user is signed in. |
+| List| A collection of values in a specific order. | `List<String> names = [];` | A shopping list. | Displaying a list of contacts. |
+| Null| A special value that means “nothing.” | `String? name = null;` | An empty jar with no label. | When user hasn’t filled in their profile yet. |
+| Function| A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` | A coffee machine making coffee. | Running logic when a button is clicked. |
+| Parameter| The information passed into a function to change how it works. | `greet(String name)` | Choosing coffee strength when ordering. | Passing username to personalize greeting. |
+| Return| The result a function gives back. | `return total;` | Getting change from a cashier. | Returning calculated price in a cart. |
+| Scope| Where a variable or function can be used. | *(Concept — not specific code)* | Toolbox that’s only available in one room. | Local variables inside a function. |
+| Class| Blueprint for creating objects with specific structure and behavior. | `class Dog {}` | A recipe for making cakes. | Defining a `User` class in an app. |
+| Object| A specific version of a class. | `Dog myDog = Dog();` | A cake made from the recipe. | Creating a `User` with name and email. |
+| Property| A variable that belongs to a class/object. | `String name;` | Features of a car: color, model. | `user.email` in your app. |
+| Method| A function that belongs to a class. | `void bark() {}` | A car starting when you turn the key. | `user.logout()` function. |
+| Constructor| A special function used to set up a class when it’s created. | `Dog(this.name);` | Assembling furniture when it arrives. | `User(this.name, this.email)` sets initial values. |
+| Abstraction| Hiding the inner workings of code so users only interact with what they need. | *(Concept — not specific code)* | Driving a car without knowing how the engine works. | Using Flutter widgets without seeing source code. |
+| Override| Changing how a built-in or inherited function behaves. | `@override` | Rewriting the rules of a game. | Customizing the `toString()` method in a class. |
+| Void| A function that does not return a value. | `void printMessage() {}` | Turning on a light — no output, just action. | Showing a toast message with no return. |
 ## Flutter Notes
 
 ### What is Flutter?
@@ -25,7 +73,7 @@
 | Widget           |Basic building block of a flutter app. everythinh is a widget|                                |
 | MaterialApp      |the root of the app. Sets up routes and themes    |                                           |
 | Scaffold         |Provides basic virtual layout-like a header, body, floating button|                           |
-| StatelessWidget  |a widget that doesnt change                       |
+| StatelessWidget  |a widget that doesnt change                       |                                           |
 | StatefulWidget   |a widget that can change over time                |                                           |
 | Navigator        |manage screen transitions                         |                                           |
 | AppBar           |top navigation bar                                |                                           |
