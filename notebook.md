@@ -1,12 +1,14 @@
 # my coding digital notebook
 
 ## Table of Contents
-- [Flutter Notes](#Flutter Notes)
+-[Flutter Notes]_(#flutter-notes)
   - [What is Flutter?](#what-is-flutter)
-  - [Key Terms and Definitions](#Key-Terms-and-Definitions)
--[Notebook Style Guide](#Markdown-Style-Guide-for-Coding-Notebooks)
+  - [Key Terms and Definitions](#key-terms-and-definitions)
+  - [Layout and Desin Widgets](#layout-and-design-widgets)
+  - [Definitions with Structures](#flutter-definitions)
+- [Code Definitions](#code-definitions)
+-[Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 -[Flutter Definitions](#flutter_definitions)
-- [Code Definitions](#code_definitions)
 
 ## Flutter Definitions
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
@@ -70,17 +72,17 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |Basic building block of a flutter app. everythinh is a widget|                                |
-| MaterialApp      |the root of the app. Sets up routes and themes    |                                           |
-| Scaffold         |Provides basic virtual layout-like a header, body, floating button|                           |
-| StatelessWidget  |a widget that doesnt change                       |                                           |
-| StatefulWidget   |a widget that can change over time                |                                           |
-| Navigator        |manage screen transitions                         |                                           |
-| AppBar           |top navigation bar                                |                                           |
-| Column           |verticle layout                                   |                                           |
-| Row              |horizontal leyout                                 |                                           |
-| Container        |wraps content with padding, margin, or color      |                                           |
-| Image.network    |displays images from a URL                        |                                           |
+| Widget           |Basic building block of a flutter app. everythinh is a widget|Text, Button, Column, Row, etc.|
+| MaterialApp      |the root of the app. Sets up routes and themes    |MaterialApp(home: MyHomePage())|
+| Scaffold         |Provides basic virtual layout-like a header, body, floating button|Commonly used to structure a screen|
+| StatelessWidget  |a widget that doesnt change                       |Good for static UI, like labels or icons|
+| StatefulWidget   |a widget that can change over time                |Good for counters, forms, animations|
+| Navigator        |manage screen transitions                         |Navigator.push(context, MaterialPageRoute(...))|
+| AppBar           |top navigation bar                                |Contains title, actions, back button|
+| Column           |verticle layout                                   |Column(children: [...])|
+| Row              |horizontal leyout                                 |Row(children: [...])|
+| Container        |wraps content with padding, margin, or color      |Similar to a div in HTML|
+| Image.network    |displays images from a URL                        |Image.network('https://example.com/image.png')|
 
 ---
 
