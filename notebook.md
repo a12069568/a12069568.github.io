@@ -1,14 +1,13 @@
 # my coding digital notebook
 
 ## Table of Contents
--[Flutter Notes]_(#flutter-notes)
+- [Flutter Notes](#flutter-notes)
   - [What is Flutter?](#what-is-flutter)
   - [Key Terms and Definitions](#key-terms-and-definitions)
   - [Layout and Desin Widgets](#layout-and-design-widgets)
   - [Definitions with Structures](#flutter-definitions)
 - [Code Definitions](#code-definitions)
--[Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
--[Flutter Definitions](#flutter_definitions)
+- [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 ## Flutter Definitions
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
