@@ -16,7 +16,7 @@
 | MaterialApp| Sets up your whole app’s look and navigation.| MaterialApp(...)| The foundation and style guide of a house.  | Sets theme, home screen, routes.|
 | Scaffold| Gives basic layout: background, nav bar, floating button, etc.| Scaffold(...)| A blank canvas with a frame.| Adds AppBar, body, floating button.|
 | Column| Displays content top to bottom.| Column(...)| A vertical list of items on a shelf.| Stack text and images vertically.|
-| Row| Displays widgets side-by-side.| Row(...)| A line of books on a shelf.| Place buttons or icons in a line.|
+| Row| Displays widgets side-by-side.| Row(...)| A line of books on a shelf.| Place buttons or icons in a line.|u
 | Container| A box that can hold other widgets, style, padding, size.| Container(...)| A decorative gift box.| Add margin, padding, color.|
 | Text| Displays text on screen.| Text('Hello')| A label on a product.| Show titles, labels, descriptions.|
 | Image.network| Loads and shows an image from the internet.| Image.network('https://...')| Viewing a photo from a website.| Load an image from a URL|
