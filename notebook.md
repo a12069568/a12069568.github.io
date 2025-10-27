@@ -61,6 +61,14 @@
 | Void| A function that does not return a value. | `void printMessage() {}` | Turning on a light — no output, just action. | Showing a toast message with no return. |
 ## Flutter Notes
 
+
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+
 ### What is Flutter?
 - Definition:A framework made by google for building apps that work on web android and ios with one codebase
 - Why is it useful?
