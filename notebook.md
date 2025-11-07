@@ -70,6 +70,9 @@
 | dot notation | Methods are called on objects using a dot after the object name | object.method(value); |  |  |
 | Concatenate | To combine Strings with other Strings and/or variables| String greeting = "Hello" + "My name is ". ";|||
 
+### String Notes
+  Strings have indices (plural for index,) wich start at 0. "Hello" has indices 0(H), 1(e), 2(1), 3(11), 4(0).
+
 ### What is Flutter?
 - Definition:A framework made by google for building apps that work on web android and ios with one codebase
 - Why is it useful?
