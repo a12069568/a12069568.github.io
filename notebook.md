@@ -36,6 +36,10 @@
 | const| Declares a value that never changes.| const| A permanent signboard.| Optimizes performance for static widgets.|
 
 ## Code Definitions
+
+| Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
+| Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
+
 | Term        | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |-------------|------------|--------------------------|-------------------|-------------|
 | Variable| A named container used to store a value that may change. | `var x = 5;` | A labeled jar you can refill. | Storing user input like `age` or `name`. |
@@ -69,6 +73,7 @@
 | Overloaded method/function or constructure | Uses the same name, but has different parameters | Pizza(), Pizza(String toppings | 2 constructures, firs is a default cheese pizza, 2nd has 1 topping |  |
 | dot notation | Methods are called on objects using a dot after the object name | object.method(value); |  |  |
 | Concatenate | To combine Strings with other Strings and/or variables| String greeting = "Hello" + "My name is ". ";|||
+
 
 ### String Notes
   Strings have indices (plural for index,) wich start at 0. "Hello" has indices 0(H), 1(e), 2(1), 3(11), 4(0).
