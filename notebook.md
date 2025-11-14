@@ -73,10 +73,16 @@
 | Overloaded method/function or constructure | Uses the same name, but has different parameters | Pizza(), Pizza(String toppings | 2 constructures, firs is a default cheese pizza, 2nd has 1 topping |  |
 | dot notation | Methods are called on objects using a dot after the object name | object.method(value); |  |  |
 | Concatenate | To combine Strings with other Strings and/or variables| String greeting = "Hello" + "My name is ". ";|||
-
+|  index| location value of each character in a String or list, starting at 0 | "Hello" index of 'e' is 1 |  |  |
+| Substring | Part of a larger String | "Hello" is a subString of "Hello" |  |  |
 
 ### String Notes
-  Strings have indices (plural for index,) wich start at 0. "Hello" has indices 0(H), 1(e), 2(1), 3(11), 4(0).
+  -Strings have indices (plural for index,) wich start at 0. "Hello" has indices 0(H), 1(e), 2(1), 3(11), 4(0).
+  
+### String Methos Table
+
+<img width="1208" height="401" alt="image" src="https://github.com/user-attachments/assets/4623bd16-69f3-48b8-8a1e-32eae563db20" />
+
 
 ### What is Flutter?
 - Definition:A framework made by google for building apps that work on web android and ios with one codebase
